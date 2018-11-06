@@ -5,16 +5,6 @@ namespace Kaczorek.BL
     public class KlientRepository
     {
         /// <summary>
-        /// Zapisuje klienta
-        /// </summary>
-        /// <returns></returns>
-        public bool Zapisz()
-        {
-            // kod, który zapisuje zdefiniowanego klienta
-            return true;
-        }
-
-        /// <summary>
         /// Pobieramy jednego klienta
         /// </summary>
         /// <param name="klientId"></param>
@@ -45,6 +35,16 @@ namespace Kaczorek.BL
         {
             //Kod który pobiera wszystkich klientów
             return new List<Klient>();
+        }
+
+        /// <summary>
+        /// Zapisuje klienta
+        /// </summary>
+        /// <returns></returns>
+        public bool Zapisz()
+        {
+            // kod, który zapisuje zdefiniowanego klienta
+            return true;
         }
     }
 }

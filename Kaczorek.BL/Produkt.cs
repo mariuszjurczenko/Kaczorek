@@ -52,10 +52,10 @@ namespace Kaczorek.BL
         /// </summary>
         /// <param name="produktId"></param>
         /// <returns></returns>
-        public Klient Pobierz(int produktId)
+        public Produkt Pobierz(int produktId)
         {
             //Kod który pobiera określony produkt
-            return new Klient();
+            return new Produkt();
         }
 
         /// <summary>
