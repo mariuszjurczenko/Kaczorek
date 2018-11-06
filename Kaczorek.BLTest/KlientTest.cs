@@ -113,7 +113,7 @@ namespace Kaczorek.BLTest
         public void ZwalidujEmailTest()
         {
             // Arrange (przygotuj test)
-            var klient = new Klient;
+            var klient = new Klient();
             klient.Nazwisko = "Kowal";
             var oczekiwana = false;
 
