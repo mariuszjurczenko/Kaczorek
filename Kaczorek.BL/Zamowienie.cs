@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Kaczorek.BL
 {
-    public class Zamowienie
+    public class Zamowienie : KlasaBazowa
     {
         #region konstruktory
         public Zamowienie()
@@ -32,7 +32,7 @@ namespace Kaczorek.BL
         /// Sprawdza dane zamowienia
         /// </summary>
         /// <returns></returns>
-        public bool Zwalduj()
+        public override bool Zwalduj()
         {
             var poprawne = true;
 

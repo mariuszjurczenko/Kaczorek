@@ -2,7 +2,7 @@
 
 namespace Kaczorek.BL
 {
-    public class Klient
+    public class Klient : KlasaBazowa
     {
         #region konstruktory
         public Klient() : this(0)
@@ -70,7 +70,7 @@ namespace Kaczorek.BL
 
         #region metody
         // Metody
-        public bool Zwalduj()
+        public override bool Zwalduj()
         {
             var poprawne = true;
 
