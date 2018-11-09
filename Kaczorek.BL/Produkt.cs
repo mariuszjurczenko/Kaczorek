@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Kaczorek.BL
 {
-    public class Produkt : KlasaBazowa
+    public class Produkt : KlasaBazowa, ILogowanie
     {
         #region konstruktory
         public Produkt()

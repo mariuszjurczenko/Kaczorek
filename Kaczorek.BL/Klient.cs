@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using Common;
+using System.Collections.Generic;
 
 namespace Kaczorek.BL
 {
-    public class Klient : KlasaBazowa
+    public class Klient : KlasaBazowa, ILogowanie
     {
         #region konstruktory
         public Klient() : this(0)
