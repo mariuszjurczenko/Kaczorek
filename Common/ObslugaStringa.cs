@@ -2,9 +2,9 @@
 
 namespace Common
 {
-    public class ObslugaStringa
+    public static class ObslugaStringa
     {
-        public string WstawSpacje(string zrodło)
+        public static string WstawSpacje(string zrodło)
         {
             string wynik = string.Empty;
 

@@ -26,9 +26,8 @@ namespace Kaczorek.BL
         public string NazwaProduktu
         {
             get
-            {
-                var obslugaStringa = new ObslugaStringa();               
-                return obslugaStringa.WstawSpacje(_NazwaProduktu);
+            {              
+                return ObslugaStringa.WstawSpacje(_NazwaProduktu);
             }
             set { _NazwaProduktu = value; }
         }
