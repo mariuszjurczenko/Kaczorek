@@ -85,6 +85,17 @@ namespace Kaczorek.BL
         {
             return NazwaProduktu;
         }
+
+        public string Log()
+        {
+            var log = ProduktId + ": " +
+                NazwaProduktu + " " +
+                "Opis: " + Opis + " " +
+                "Status: " + StanObiektu.ToString();
+
+            return log;
+        }
+
         #endregion
     }
 }

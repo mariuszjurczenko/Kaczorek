@@ -118,6 +118,16 @@ namespace Kaczorek.BL
             return ImieNazwisko;
         }
 
+        public string Log()
+        {
+            var log = KlientId + ": " + 
+                ImieNazwisko + " " + 
+                "Email: " + Email + " " + 
+                "Status: " + StanObiektu.ToString();
+
+            return log;
+        }
+
         #endregion
     }
 }
