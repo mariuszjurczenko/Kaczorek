@@ -4,7 +4,7 @@ namespace Common
 {
     public static class ObslugaStringa
     {
-        public static string WstawSpacje(string zrodło)
+        public static string WstawSpacje(this string zrodło)
         {
             string wynik = string.Empty;
 
