@@ -1,5 +1,7 @@
 # Kaczorek
-C# Seria Programista - część 2/10   Podstawy Programowanie  obiektowego w języku C #
+C# Seria Programista część 2 - Podstawy Programowanie obiektowego w języku C#
+
+mariuszjurczenko@dev-hobby.pl
 
 Programowanie  obiektowe  to fundamentalna cecha języka C #. Tematem tego kursu będzie programowanie w języku C #, 
 a dokładnie wszystko co powinieneś wiedzieć o programowaniu obiektowym. Po podaniu specyfikacji nowej funkcji lub 
@@ -46,11 +48,4 @@ aby zapewnić własną definicję i implementację, zasadniczo zapewniając wła
 opartego na interfejsie jest to, że interfejs może definiować metodę. Każda klasa może następnie zaimplementować ten 
 interfejs i zdefiniować własną implementację dla tej metody, zasadniczo zapewniając własny kształt dla tej metody. 
 
-Seria Programista C# :
-
-część 1:  C# Podstawy programowania 
-część 2:  C# OOP (obiektówka)
-część 3:  C# Typy generyczne
-część 4:  C# Programowanie obronne
-...
-część 10: C# Niespodzianka
+Link do kursu https://dev-hobby.pl/kursy/c-najlepsze-praktyki-podstawy-jezyka/
