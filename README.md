@@ -48,4 +48,4 @@ aby zapewnić własną definicję i implementację, zasadniczo zapewniając wła
 opartego na interfejsie jest to, że interfejs może definiować metodę. Każda klasa może następnie zaimplementować ten 
 interfejs i zdefiniować własną implementację dla tej metody, zasadniczo zapewniając własny kształt dla tej metody. 
 
-Link do kursu https://dev-hobby.pl/kursy/c-najlepsze-praktyki-podstawy-jezyka/
+Link do kursu https://dev-hobby.pl/kursy/c-programowanie-obiektowe/
